@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  text-align: center;   /* fix spelling + handles centring */
+  background: white;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 auto;       /* centres the canvas itself */
+}
+
+.rules {
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.rules h2 {
+  margin-bottom: 5px;
+}
+
+.rules ul {
+  padding-left: 20px;
+}
