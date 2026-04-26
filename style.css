@@ -52,3 +52,29 @@ canvas {
   flex-wrap: wrap;
   gap: 5px;
 }
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap; /* important for mobile */
+}
+
+.game {
+  text-align: center;
+}
+
+.instructions {
+  max-width: 300px;
+  text-align: left;
+}
+
+.instructions ul {
+  padding-left: 20px;
+}
+
+.instructions h2 {
+  margin-bottom: 10px;
+}
