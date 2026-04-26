@@ -3,6 +3,7 @@ body {
   text-align: center;   /* fix spelling + handles centring */
   background: white;
   margin: 0;
+  padding: 10px;
 }
 
 h1 {
@@ -23,6 +24,9 @@ canvas {
   border: 1px solid #ccc;
   display: block;
   margin: 0 auto;       /* centres the canvas itself */
+
+  max-width: 95vw;   /* key mobile fix */
+  height: auto;
 }
 
 .rules {
@@ -39,4 +43,12 @@ canvas {
 
 .rules ul {
   padding-left: 20px;
+}
+
+/* Prevent button overflow on mobile devices */
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
 }

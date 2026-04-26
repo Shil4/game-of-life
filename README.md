@@ -3,7 +3,7 @@
 A minimal, interactive implementation of Conway’s Game of Life using vanilla HTML, CSS, and JavaScript.
 
 ## Demo
-https://YOUR_USERNAME.github.io/game-of-life/
+https://shil4.github.io/game-of-life/
 
 ## What it is
 
